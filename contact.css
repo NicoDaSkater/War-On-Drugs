@@ -1,0 +1,16 @@
+.form-container {
+    margin: 0px auto;
+}
+.list-unstyled {
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 1195px;
+    margin-top: 3%;
+}
+body {
+    background-color: black;
+    color: white;
+}
