@@ -9,3 +9,8 @@ a:hover {
 .navbar-nav {
     margin-right:0px;
 }
+
+body {
+    background-color:#2a2e32;
+    color:white;
+}
