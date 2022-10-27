@@ -4,73 +4,99 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="reset.css" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
 </head>
+
 <body>
     <header>
-        <nav class="nav">
-            <div class="container">
-                <div class="logo">
-                    <a href="#">Your Logo</a>
+        <nav class="navbar bg-dark sticky-top mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">War On Us</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-us.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="donations.html">Donations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mask " href="additional-resources.html">Additional Resources</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
                 </div>
-                <div id="mainListDiv" class="main_list">
-                    <ul class="navlinks">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <span class="navTrigger">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </span>
             </div>
         </nav>
     </header>
-
-    <section class="home">
-    </section>
-    <div style="height: 1000px">
-        <!-- just to make scrolling effect possible -->
-			<h2 class="myH2">What is this ?</h2>
-			<p class="myP">This is a responsive fixed navbar animated on scroll</p>
-			<p class="myP">I took inspiration from  ABDO STEIF (<a href="https://codepen.io/abdosteif/pen/bRoyMb?editors=1100">https://codepen.io/abdosteif/pen/bRoyMb?editors=1100</a>)
-			and Dicson <a href="https://codepen.io/dicson/pen/waKPgQ">(https://codepen.io/dicson/pen/waKPgQ)</a></p>
-			<p class="myP">I HOPE YOU FIND THIS USEFULL</p>
-			<p class="myP">Albi</p>
-				<p class="myP">
-				
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-			</p>
-    </div>
-
-<!-- Jquery needed -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
-
-<!-- Function used to shrink nav bar removing paddings and adding black background -->
-    <script>
-        $(window).scroll(function() {
-            if ($(document).scrollTop() > 50) {
-                $('.nav').addClass('affix');
-                console.log("OK");
-            } else {
-                $('.nav').removeClass('affix');
-            }
-        });
-    </script>
     <main>
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/Gj8gAQ_cQ7Q" title="President Reagan's Address to the Nation on the Campaign Against Drug Abuse - 9/14/86" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="jumbotron pl-">
+            <h1 class="display-4">Addtional Resources</h1>
+            <p class="lead">Our team has compiled external resources about research regarding the "War On Drugs" campaign. These resources provide additional information and reflect a range of perspectives and experiences.</p>
+            <hr class="my-4">
+        </div>
+        <!--<div class="card m-2" style="max-width: 90%;">-->
+        <!--    <div class="row g-0">-->
+        <!--        <div class="col-md-4">-->
+        <!--            <img src="https://assets.codepen.io/6093409/mountains-6.jpg?width=200&format=auto" />-->
+        <!--        </div>-->
+        <!--        <div class="col-md-8">-->
+        <!--            <div class="card-body">-->
+        <!--                <h5 class="card-title">Horizontal Card</h5>-->
+        <!--                <p class="card-text">This is a horizontal card. This card was created using the Bootstrap grid system. The card is 12 columns wide: The image takes up four columns and the text takes up 8 columns,</p>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</div>-->
+        <div class="card m-2" style="max-width: 90% max-height: 150px;">
+            <img class="card-img" src="https://static.aclu.org/images/roe-wade-bg.png" alt="" />
+            <div class="card-img-overlay text-white">
+                <h2 class="card-title">THE DRUG WAR IS THE NEW JIM CROW</h2>
+                <p class="card-text">Here lies the new Civil Rights Movement. As in a nightmare it revisits the same issue civil rights activists faced in the 1960s when fighting Jim Crow, the same issues abolitionists faced in the nineteenth century. It is the original sin of the United States that the ""Founding Fathers"" sanctioned slavery and enshrined racism in the Constitution in the form of the three-fifths compromise.</p>
+                <a href="https://www.aclu.org/other/drug-war-new-jim-crow" class="btn btn-secondary">Learn more</a>
+            </div>
+        </div>
+        <div class="card m-2" style="max-width: 90% max-height: 150px;">
+            <img class="card-img" src="https://static.aclu.org/images/roe-wade-bg.png" alt="" />
+            <div class="card-img-overlay text-white">
+                <h2 class="card-title">THE DRUG WAR IS THE NEW JIM CROW</h2>
+                <p class="card-text">Here lies the new Civil Rights Movement. As in a nightmare it revisits the same issue civil rights activists faced in the 1960s when fighting Jim Crow, the same issues abolitionists faced in the nineteenth century. It is the original sin of the United States that the ""Founding Fathers"" sanctioned slavery and enshrined racism in the Constitution in the form of the three-fifths compromise.</p>
+                <a href="https://www.aclu.org/other/drug-war-new-jim-crow" class="btn btn-secondary">Learn more</a>
+            </div>
+        </div>
+
     </main>
-    <footer>
-        
-    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
+
 </html>
