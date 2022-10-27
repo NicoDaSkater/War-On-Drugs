@@ -5,3 +5,7 @@
 a:hover {
     color:red;
 }
+
+.navbar-nav {
+    margin-right:0px;
+}
