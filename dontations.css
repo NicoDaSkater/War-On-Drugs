@@ -1,4 +1,9 @@
 body {
-    background-color: black;
+    background-color: #2A2E32;
     color: white;
+}
+
+.country-state-zip {
+    display: flex;
+    flex-direction: row;
 }
