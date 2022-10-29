@@ -14,3 +14,9 @@ body {
     background-color: #2A2E32;
     color: white;
 }
+
+.war-on-drugs{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
