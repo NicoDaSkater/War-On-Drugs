@@ -23,3 +23,11 @@ img {
     /*padding-left: 300px;*/
     /*padding-right: 300px;*/
 }
+
+.card-text {
+    text-align: center;
+    color: white;
+}
+ .card-title {
+     color: white;
+ }
