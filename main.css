@@ -3,13 +3,14 @@
     justify-content: space-around;
 }
 
-html {
-    cursor: url("https://w7.pngwing.com/pngs/409/751/png-transparent-light-effect-light-white-glow-thumbnail.png"), auto;
+* {
+    cursor: url(/project-week/War-On-Drugs/Mediamodifier-Design.svg), auto;
 }
 
 @media (max-width: 576px) {
     .text {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 }
