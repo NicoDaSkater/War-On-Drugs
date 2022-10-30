@@ -5,15 +5,18 @@ body {
 
 .intro {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    overflow-y: hidden;
 }
 
 img {
     border-radius: 50%;
+    border: thick solid black;
 }
 
 .card {
     border: 0;
+    flex-shrink:0;
 }
 
 .lead {
