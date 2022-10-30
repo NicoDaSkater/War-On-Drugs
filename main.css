@@ -2,3 +2,14 @@
     display: flex;
     justify-content: space-around;
 }
+
+html {
+    cursor: url("https://w7.pngwing.com/pngs/409/751/png-transparent-light-effect-light-white-glow-thumbnail.png"), auto;
+}
+
+@media (max-width: 576px) {
+    .text {
+        display: flex;
+        flex-direction: column;
+    }
+}
