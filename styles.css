@@ -16,18 +16,23 @@ img {
 
 .card {
     border: 0;
-    flex-shrink:0;
+    flex-shrink: 0;
 }
 
 .lead {
-    /*padding-left: 300px;*/
-    /*padding-right: 300px;*/
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .card-text {
     text-align: center;
     color: white;
 }
- .card-title {
-     color: white;
- }
+
+.card-title {
+    color: white;
+}
+
+/*footer {*/
+/*    padding-top: 70px;*/
+/*}*/
