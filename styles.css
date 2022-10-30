@@ -1,0 +1,38 @@
+body {
+    background-color: #2A2E32;
+    color: white;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+
+img {
+    border-radius: 50%;
+    border: thick solid black;
+}
+
+.card {
+    border: 0;
+    flex-shrink: 0;
+}
+
+.lead {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.card-text {
+    text-align: center;
+    color: white;
+}
+
+.card-title {
+    color: white;
+}
+
+/*footer {*/
+/*    position: fixed;*/
+/*}*/

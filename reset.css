@@ -47,5 +47,16 @@ p, h1, h2, h3, h4, h5, h6 {
 
 body {
   background-color:#2A2E32;
-  color:white;
+  color: white;
 }
+
+.card-title {
+  color:#2A2E32;
+}
+
+.card-text {
+  color:#2A2E32;
+}
+
+
+

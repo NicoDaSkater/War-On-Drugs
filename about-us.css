@@ -1,17 +1,28 @@
+body {
+    background-color: #2A2E32;
+    color: white;
+}
+
 img {
-    border-radius:20%;
+
+    border-radius: 20%;
 }
 
 .card {
-    background-color:#3c4247;
+    background-color: #3c4247;
     text-align: center;
 }
 
 
-/*header {*/
-/*    margin-bottom:60px;*/
-/*}*/
+header {
+    margin-bottom: 60px;
+}
 
-/*footer {*/
-/*    margin-top:60px;*/
-/*}*/
+footer {
+    margin-top: 60px;
+}
+
+.card-title,
+.card-text {
+    color: white;
+}

@@ -8,3 +8,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.form-check-input:checked {
+    background-color: #2A2E32;
+    border-color: #2A2E32;
+}
