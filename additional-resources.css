@@ -1,7 +1,16 @@
+.card-title {
+    color: white;
+}
+
+.card-text{
+    color: white;
+}
 section > * {
     color: black;
 }
 
-body {
-    
+img {
+
+    border-radius: 2%;
+    border:solid black 7px;
 }
