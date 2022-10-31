@@ -1,11 +1,11 @@
 body {
-    background-color: #2a2e32;
+    /*background-color: #2a2e32;*/
 }
 
 .text {
     display: flex;
     justify-content: space-around;
-    color: white;
+    /*color: white;*/
 }
 
 * {
