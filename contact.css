@@ -20,3 +20,7 @@ body {
     justify-content: center;
     margin: auto;
 }
+
+body {
+  cursor: url('Mediamodifier-Design.svg'),auto;
+}

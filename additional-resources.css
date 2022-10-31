@@ -14,3 +14,7 @@ img {
     border-radius: 2%;
     border:solid black 7px;
 }
+
+body {
+  cursor: url('Mediamodifier-Design.svg'),auto;
+}

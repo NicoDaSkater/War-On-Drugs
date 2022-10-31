@@ -58,5 +58,7 @@ body {
   color:#2A2E32;
 }
 
-
+body {
+  cursor: url('Mediamodifier-Design.svg'),auto;
+}
 

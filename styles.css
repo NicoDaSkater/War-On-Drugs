@@ -33,6 +33,6 @@ img {
     color: white;
 }
 
-/*footer {*/
-/*    position: fixed;*/
-/*}*/
+body {
+  cursor: url('Mediamodifier-Design.svg'),auto;
+}
