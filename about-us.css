@@ -5,7 +5,7 @@ body {
 
 img {
 
-    border-radius: 20%;
+    border-radius: 50%;
 }
 
 .card {
@@ -25,4 +25,8 @@ footer {
 .card-title,
 .card-text {
     color: white;
+}
+
+img {
+    border:solid black 7px;
 }
