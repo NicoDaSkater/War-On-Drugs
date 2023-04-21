@@ -8,18 +8,10 @@ body {
     /*color: white;*/
 }
 
-* {
-    cursor: url(Mediamodifier-Design.svg), auto;
-}
-
 @media (max-width: 576px) {
     .textgit  {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-}
-
-body {
-  cursor: url('Mediamodifier-Design.svg'),auto;
 }
